@@ -1,6 +1,9 @@
 package org.example;
+import lombok.extern.java.Log;
+
 import java.util.Arrays;
 
+@Log
 public class StringUtils {
 
     public static boolean isPalindrome(String word) {
