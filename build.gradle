@@ -24,6 +24,9 @@ sonar {
         property "sonar.projectKey", "pipecadav_StaticCodeActivity"
         property "sonar.organization", "pipecadav"
         property "sonar.host.url", "https://sonarcloud.io"
+        property "sonar.source", "src/main"
+        property "sonar.tests", "src/test"
+
     }
 }
 
