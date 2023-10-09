@@ -1,3 +1,5 @@
+package org.example;
+
 import org.example.StringUtils;
 import org.junit.jupiter.api.Test;
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.StringUtilsTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-10-09T11:45:52" hostname="DESKTOP-8O8J8BG" time="0.047">
+  <properties/>
+  <testcase name="testIsPalindromeHighComplexity()" classname="org.example.StringUtilsTests" time="0.033"/>
+  <testcase name="testCountLetters()" classname="org.example.StringUtilsTests" time="0.003"/>
+  <testcase name="testSortAlphabetically()" classname="org.example.StringUtilsTests" time="0.007"/>
+  <testcase name="testRemoveLetter()" classname="org.example.StringUtilsTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

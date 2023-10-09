@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id "org.sonarqube" version "4.3.1.3277"
+    id "jacoco"
 }
 
 group 'org.example'
@@ -32,4 +33,19 @@ sonar {
 
 test {
     useJUnitPlatform()
+    finalizedBy jacocoTestReport
 }
+
+jacocoTestReport {
+    dependsOn test
+    reports {
+        xml.required = true
+        html.outputLocation = layout.buildDirectory.dir('jacocoReports')
+    }
+}
+
+jacoco {
+    toolVersion = "0.8.9"
+    reportsDirectory = layout.buildDirectory.dir('jacocoReports')
+}
+
